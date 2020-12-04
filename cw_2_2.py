@@ -1,7 +1,21 @@
 
-a = bin(8)
-b = bin(10)
 
-a_b = (a, 2)
+a = "hui"
+string_test = f"Test me please{a}{a}{a}"
 
-print(a_b)
+
+b = "dwqwd dwdqwddqd dwqdqwdq wqdwddwd"
+
+
+k = b.split()
+print(k)
+
+
+
+print(string_test.upper())
+print(string_test.lower(), string_test, string_test.upper(), string_test.capitalize(), string_test.isdigit())
+
+print(string_test.upper() *3)
+
+
+
