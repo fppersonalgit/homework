@@ -4,8 +4,10 @@
 entered_number = int(input("Enter number. NOTE! It should be > 0 \n"))
 r = -1
 while entered_number > 0:
-    d = entered_number % 10a
+    d = entered_number % 10
     entered_number //= 10
     if d > r:
         r = d
 print(r)
+
+
