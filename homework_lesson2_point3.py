@@ -4,28 +4,22 @@
 month_number = int(input("Enter month number from 1 to 12 - \n"))
 
 print(month_number)
-# print(type(month_number))
 
-if month_number > 12 or 0:
-    print("No, month number can be only from 1-12. Might be on other planet there is month number - ", month_number,
-          ", but for sure not on Earth.  Please try again...")
+seasons_list = ['winter', 'spring', 'summer', 'autumn']
+seasons_dict = {1 : 'winter', 2 : 'spring', 3 : 'summer', 4 : 'autumn'}
+month = int(input("Enter number "))
+if month ==1 or month == 12 or month == 2:
+        print(seasons_dict.get(1))
+        print(seasons_list[0])
+elif month == 3 or month == 4 or month ==5:
+    print(seasons_dict.get(2))
+    print(seasons_list[1])
+elif month == 6 or month == 7 or month == 8:
+    print(seasons_dict.get(3))
+    print(seasons_list[2])
 
-# seasons = {
-#    "Winter": (1, 2, 12),
-#    "Spring": (3, 4, 5),
-#    "Summer": (6, 7, 8),
-#    "Autumn": (9, 10, 11)}
-
-# for key in seasons.keys():
-#    if month_number in seasons[key]:
-#        print(key)
-
-seasons_list = list[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-
-for x in
-    if month_number == 1 or 2 or 12:
-        print("Winter")
-
-
-
-
+elif month == 9 or month == 10 or month == 11:
+    print(seasons_dict.get(4))
+    print(seasons_list[3])
+else:
+        print("Такого месяца не существует")
