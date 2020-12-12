@@ -11,7 +11,11 @@ print(l1[1])
 
 k = 0
 for number_l1 in range(int(len(l1) / 2)):
+<<<<<<< Updated upstream
     
+=======
+
+>>>>>>> Stashed changes
     l1[k], l1[k + 1] = l1[k + 1], l1[k]
 
     k += 2
